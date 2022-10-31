@@ -11,10 +11,24 @@ a {
   display: flex;
   gap: 150px;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .footer-links a {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   color: black;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons a {
+  font-size: 25px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 950px) {
+  .footer-bar {
+    gap: 20px;
+  }
 }

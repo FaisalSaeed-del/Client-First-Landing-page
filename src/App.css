@@ -9,7 +9,7 @@
   width: 335px;
   height: 66px;
   background: #2635e0;
-  box-shadow: -20px -20px 20px rgba(0, 132, 255, 1);
+  box-shadow: 10px 20px 5px rgba(0, 132, 255, 1);
 }
 .global-btn button {
   font-family: "Roboto";

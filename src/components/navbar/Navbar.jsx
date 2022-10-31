@@ -3,6 +3,7 @@ import "./navbar.css";
 import Logo from "../../assets/images/logo.svg";
 import Vector from "../../assets/images/vector.svg";
 import Curly from "../../assets/images/bracket.svg";
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
   return (
@@ -29,18 +30,31 @@ const Navbar = () => {
             </div>
             <div className="navbar-items">
               <ul>
-                <img src={Vector} alt="logo" />
+                <li>
+                  <a href="">
+                    <img src={Vector} alt="logo" />
+                  </a>
+                </li>
+
                 <li>
                   <a href="#">Get the Cloneable</a>
                 </li>
                 <li>
                   <a href="#">Log in with</a>
                 </li>
-                <img src={Curly} alt="logo" />
+                <li>
+                  <a href="">
+                    <img src={Curly} alt="logo" />
+                  </a>
+                </li>
+
                 <li>
                   {" "}
                   <a href="#">Finsweet</a>
                 </li>
+                <a className="ham-menu">
+                  <AiOutlineMenu />
+                </a>
               </ul>
             </div>
           </div>

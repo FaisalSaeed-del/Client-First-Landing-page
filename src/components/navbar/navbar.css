@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 .navbar-items ul {
   display: flex;
@@ -17,4 +18,18 @@
   list-style: none;
   color: black;
   font-family: "Roboto";
+}
+.ham-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-items ul li a {
+    display: none;
+  }
+  .ham-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
