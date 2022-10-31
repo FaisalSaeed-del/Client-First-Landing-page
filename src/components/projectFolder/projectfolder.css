@@ -1,0 +1,26 @@
+.main-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.project-para {
+  max-width: 1231px;
+}
+.project-para p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 151%;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #121212;
+}
+.project-img {
+  padding-top: 70px;
+}
+.project-img img {
+  width: 100%;
+}

@@ -1,38 +1,70 @@
-.App {
+.global-bg {
+  background-color: #ffffff;
+}
+.main-bg {
+  background: #eff0f3;
+}
+.global-btn {
+  gap: 10px;
+  width: 335px;
+  height: 66px;
+  background: #2635e0;
+  box-shadow: -20px -20px 20px rgba(0, 132, 255, 1);
+}
+.global-btn button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-left: 2.5rem;
+  padding-top: 1.3rem;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+  border: none;
+  background: none;
+}
+.global-head {
+  max-width: 1078px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.global-head h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 125%;
+  letter-spacing: 1.5px;
+  color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.global-head h2 {
+  width: 284px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50.523px;
+  line-height: 125%;
+  /* or 63px */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  letter-spacing: 1.5px;
 
-.App-link {
-  color: #61dafb;
-}
+  /* Primary/Black */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #121212;
+}
+.global-para {
+  max-width: 287px;
+}
+.global-para p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.33px;
+  line-height: 151%;
+  /* or 32px */
+
+  letter-spacing: 0.15px;
+
+  /* Primary/Black */
+  color: #121212;
 }

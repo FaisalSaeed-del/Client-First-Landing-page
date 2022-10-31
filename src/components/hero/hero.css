@@ -1,0 +1,50 @@
+.main-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.hero-para {
+  max-width: 1175px;
+}
+.hero-para p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 151%;
+  /* or 32px */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  /* Primary/Black */
+
+  color: #121212;
+  margin-bottom: 60px;
+}
+.btn {
+  margin-bottom: 85px;
+}
+
+.hero-dashboard {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 102px;
+}
+.hero-dashboard img {
+  width: 100%;
+}
+.dashboard1 {
+  padding-top: 90px;
+}
+
+@media screen and (max-width: 950px) {
+  .hero-dashboard {
+    flex-direction: column;
+  }
+  .global-head h1 {
+    font-size: 2rem;
+  }
+}

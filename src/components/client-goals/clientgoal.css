@@ -1,0 +1,50 @@
+.main-client {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.goals {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.client-text {
+  max-width: 248px;
+}
+.client-text p {
+  /* H5/Regular */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 151%;
+  letter-spacing: 1.5px;
+  color: #121212;
+}
+.client-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 171px; */
+}
+.client-goals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1020px) {
+  .main-client {
+    flex-wrap: wrap;
+  }
+  .client-items {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .client-goals {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,13 @@
+.main-build {
+  display: flex;
+  padding-top: 190px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.build-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}

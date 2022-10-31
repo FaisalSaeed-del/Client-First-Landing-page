@@ -1,0 +1,57 @@
+.main-use {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.goals {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.client-para {
+  max-width: 373px;
+}
+.client-para p {
+  /* H5/Regular */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 151%;
+  letter-spacing: 1.5px;
+  color: #121212;
+}
+.client-use {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.client-goals {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1020px) {
+  .main-use {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+  }
+  .client-use {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .client-goals {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+  }
+}

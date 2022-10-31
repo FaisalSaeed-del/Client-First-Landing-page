@@ -1,0 +1,20 @@
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+}
+a {
+  text-decoration: none;
+}
+.footer-bar {
+  display: flex;
+  gap: 150px;
+  justify-content: space-around;
+}
+.footer-links a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: black;
+}
