@@ -25,8 +25,6 @@ const Footer = () => {
               <h2> Client-First Docs </h2>
               <a href="">Learning path</a>
               <a href="">Learning path</a>
-              <a href="">Learning path</a>
-              <a href="">Learning path</a>
             </div>
             <div className="footer-links">
               <h2> Client-First Docs </h2>

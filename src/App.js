@@ -7,6 +7,7 @@ import Hero from "./components/hero/Hero";
 import Library from "./components/library/Library";
 import Navbar from "./components/navbar/Navbar";
 import Projectfolder from "./components/projectFolder/Projectfolder";
+import Subscribe from "./components/subscribe/Subscribe";
 import Uses from "./components/uses/Uses";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Library />
       <Build />
       <Footer />
+      <Subscribe />
     </div>
   );
 }
